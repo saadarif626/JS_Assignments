@@ -3,6 +3,7 @@
 // // last name using prompt and merge them in a new variable
 // // titled fullName. Greet the user using his full name.
 
+// document.write("<h3>------------ Question-1  ------------<h3>")
 // var firstname=prompt("Enter your first name").toUpperCase();
 // var lastname=prompt("Enter your last name").toUpperCase();
 
@@ -13,6 +14,7 @@
 // // mobile phone model. Find and display the length of user
 // // input in your browser
 
+// document.write("<h3>------------ Question-2  ------------<h3>")
 // var mobile=prompt("Enter your fav Mobile").toUpperCase();
 // var length=mobile.length
 // document.write("My fav mobile is:"+" "+mobile+'</br><br/>')
@@ -22,6 +24,7 @@
 // // Write a program to find the index of letter “n” in the word
 // // “Pakistani” and display the result in your browser
 
+// document.write("<h3>------------ Question-3  ------------<h3>")
 // var pak="Pakistani"
 // var ind=pak.indexOf('n')
 
@@ -34,7 +37,7 @@
 // // Write a program to find the last index of letter “l” in the
 // // word “Hello World” and display the result in your browser.
 
-
+// document.write("<h3>------------ Question-4  ------------<h3>")
 // var greet="Hello World"
 // var indl=greet.lastIndexOf('l')
 
@@ -47,6 +50,7 @@
 // // Write a program to find the character at 3rd index in the
 // // word “Pakistani” and display the result in your browser.
 
+// document.write("<h3>------------ Question-5  ------------<h3>")
 // var PK="Pakistani"
 // var char=PK.charAt(3)
 
@@ -58,6 +62,7 @@
 // // *******************  Question-6 *******************
 // // Repeat Q1 using string concat() method.
 
+// document.write("<h3>------------ Question-6  ------------<h3>")
 // var firstname=prompt("Enter your first name").toUpperCase();
 // var lastname=prompt("Enter your last name").toUpperCase();
 // var fullName=firstname.concat(lastname)
@@ -67,6 +72,7 @@
 // // Write a program to replace the “Hyder” to “Islam” in the
 // // word “Hyderabad” and display the result in your browser.
 
+// document.write("<h3>------------ Question-7  ------------<h3>")
 // var hyd=("Hyderabad")
 // var isl=hyd.replace("Hydera","Islama")
 // document.write(`
@@ -78,6 +84,7 @@
 // // Write a program to replace all occurrences of “and” in the
 // // string with “&” and display the result in your browser.
 
+// document.write("<h3>------------ Question-8  ------------<h3>")
 // var message = "Ali and Sami are best friends. They play cricket and football together";
 // var updmsg=message.replaceAll("and","&")
 
@@ -87,6 +94,7 @@
 // // Write a program that converts a string “472” to a number
 // // 472. Display the values & types in your browser.
 
+// document.write("<h3>------------ Question-9  ------------<h3>")
 // var num1="472"
 // document.write(num1+"</br>")
 // document.write(typeof(num1)+"</br>")
@@ -98,7 +106,8 @@
 // //  Write a program that takes user input. Convert and
 // //  show the input in capital letters.
 
-//  var input=prompt("Enter anything")
+// document.write("<h3>------------ Question-10  ------------<h3>")
+//  var input=prompt("Write anything to convert in CAPITAL")
 //  document.write("User input:"+input+"<br/>"+"<br/>")
 //  var Uinp=input.toUpperCase()
 //  document.write("Upper case:"+Uinp)
@@ -107,7 +116,8 @@
 // // Write a program that takes user input. Convert and
 // // show the input in title case.
 
-// var inpu=prompt("Enter your Input")
+// document.write("<h3>------------ Question-11  ------------<h3>")
+// var inpu=prompt("Enter any word to show in title cas")
 
 // document.write("User Input:"+inpu+"<br/>"+"<br/>")
 // var inp1=inpu.slice(0,1)
@@ -121,6 +131,7 @@
 // // var num = 35.36 ;
 // // Remove the dot to display “3536” display in your browser.
 
+// document.write("<h3>------------ Question-12  ------------<h3>")
 // var number=35.36
 // var number1=number.toString()
 // var str=number1.replace(".","")
@@ -137,6 +148,8 @@
 // // enters cookie, Cookie, COOKIE or coOkIE, program
 // // should inform about its availability.
 
+
+// document.write("<h3>------------ Question-14  ------------<h3>")
 // var A = ["cake", "apple pie", "cookie", "chips", "patties"];
 //  var userInput = prompt("Welcome to the bakery! What do you want to search for?").toLowerCase();
 // var found=false
@@ -152,29 +165,80 @@
 //     }
 // }
 // if (found) {
-//             alert(userlower + " is available at index " + itemsindex + " in our bakery.");
+//             document.write(userlower + " is available at index " + itemsindex + " in our bakery.");
 //         } else {
-//             alert("We are sorry. " + userlower+ " is not available in our bakery.");
+//             document.write("We are sorry. " + userlower+ " is not available in our bakery.");
 //         }
 
-// *******************  Question-13   *******************
-// Write a program to take user input and store username
-// in a variable. If the username contains any special symbol
-// among [@ . , !], prompt the user to enter a valid username.
+// // *******************  Question-13   *******************
+// // Write a program to take user input and store username
+// // in a variable. If the username contains any special symbol
+// // among [@ . , !], prompt the user to enter a valid username.
 
-var username=prompt("Enter your username");
+// document.write("<h3>------------ Question-13  ------------<h3>")
+// var pass=prompt("Enter your username");
+// username=pass.length
+// for(var i = 0; i <= username.length ;  i++){
+//     var char=username.charCodeAt(i);
+//     if (char=== 33||
+//        char=== 44||
+//        char=== 46||
+//        char=== 64){
+//         var valid="false";
+//         }else( valid="true")
+//     }
+// if(valid==="false"){document.write("Enter a valid username")
+
+// }else{document.write("Your username is valid")}
 
 
-for(var i = 0; i < username.length ;  i++){
-    var char=username.charCodeAt(i);
-    if (username[i].charCodeAt=== 33||
-        username[i].charCodeAt=== 44||
-        username[i].charCodeAt=== 46||
-        username[i].charCodeAt=== 64){
-        var valid="false";
-        }else( valid="true")
-    }
-if(valid==="false"){document.write("Enter a valid username")
+// // *******************  Question-16  *******************
+// // Write a program to convert the following string to an
+// // array using string split method.
+// // var university = “University of Karachi”;
 
-}else{document.write("Your username is valid")}
+document.write("<h3>------------ Question-16  ------------<h3>")
+var ku = "University of Karachi";
+var uni = ku.split("");
+for (var i = 0; i < uni.length; i++){
+    document.write(uni[i]+"<br/>")
+}
+
+// document.write(`Question no 16 <br  /><br  />`);
+// var university = "University of Karachi";
+// var uniArray = university.split("");
+// for (var i = 0; i < uniArray.length; i++) {
+//   document.write(`${uniArray[i]} <br /> `);
+// }
+
+//  // *******************  Question-17  *******************
+// // Write a program to display the last character of a user
+//  // input.
+
+
+//  document.write("<h3>------------ Question-17  ------------<h3>")
+// var useri=prompt("Prompt any word")
+// var lastchar=useri[useri.length-1]
+// document.write("User input:"+useri+"<br/>")
+// document.write("The last character of the input is:"+lastchar)
+
+// // // *******************  Question-18  *******************
+// // You have a string “The quick brown fox jumps over the 
+// // lazy dog”. Write a program to count number of 
+// // occurrences of word “the” in given string
+
+// document.write("<h3>------------ Question-18  ------------<h3>")
+// var sen=("The quick brown fox jumps over the lazy dog")
+// document.write("Sentence;"+sen+"<br/>")
+// var senlow=sen.toLowerCase()
+// var wordssen=senlow.split(" ");
+// var count = 0;
+// for (var i = 0; i < wordssen.length; i++) {
+//   if (wordssen[i] === "the") {
+//     count++;
+//   }
+// }
+// document.write(`The word 'the' appears  ${count}  times in the given string.`);
+
+
 
